@@ -288,8 +288,8 @@ primeira_liga_team_stats = {
 
 turkish_super_lig_stats = {
     "Galatasaray":       [1.65, 1.27, 0.80, 1.00],  # strong scoring + defense
-    "Fenerbahce":        [1.60, 1.55, 0.90, 0.85],  # high scoring
-    "Trabzonspor":       [1.50, 1.45, 0.85, 1.00],  # solid both
+    "Fenerbahce":        [2.30, 2.27, 0.90, 0.81],  # high scoring
+    "Trabzonspor":       [1.90, 2.0, 0.85, 1.36],  # solid both
     "Besiktas":          [1.45, 1.40, 1.00, 1.10],
     "Istanbul Basaksehir":[1.40, 1.35, 1.10, 1.15],
     "Gaziantep":         [1.30, 1.25, 1.15, 1.20],
