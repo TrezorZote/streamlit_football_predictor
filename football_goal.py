@@ -11,11 +11,11 @@ import football_data
 # outcomes both_teams_to_score = 3, home_to_score0 = 1, away_to_score = 2
 
 data = {
-                             'Outcome': [3,     3,     3,     3,    3,   3,    3,     3,    1,    2,      2,    1,    1,    1  ],
-   'home_goalscoredhome_pergame_ratio': [1.8,  1.6,  2.1,   1.8,  2.6,   1.6,  1.6,  2.4,  1.6,  1.4,    1.0,  2.0,  3.5,   2.4], 
-   'away_goalscoredaway_pergame_ratio': [1.6,  1.9,  2.4,   1.9,  2.8,   1.5,  1.9,  3.0,  1.5,  2.0,    1.7,  1.1,  1.8,   1.1],
-    'home_goalconceeded_pergame_ratio': [1.1,  2.2,  1.9,   1.7,  0.5,   1.9,  1.1,  1.3,  0.4,  1.0,    1.3,  0.8,  1.4,   1.3],
-    'away_goalconceeded_pergame_ratio': [1.4,  1.1,  0.6,   1.9,  1.0,   1.4,  1.2,  1.1,  1.9,  1.0,    0.8,  1.3,  1.6,   1.8],
+                             'Outcome': [3,     3,     3,     3,    3,   3,    3,     3,    1,    2,      2,    1,    1,    1,     1 ],
+   'home_goalscoredhome_pergame_ratio': [1.8,  1.6,  2.1,   1.8,  2.6,   1.6,  1.6,  2.4,  1.6,  1.4,    1.0,  2.0,  3.5,   2.4,   2.6], 
+   'away_goalscoredaway_pergame_ratio': [1.6,  1.9,  2.4,   1.9,  2.8,   1.5,  1.9,  3.0,  1.5,  2.0,    1.7,  1.1,  1.8,   1.1,   1.2],
+    'home_goalconceeded_pergame_ratio': [1.1,  2.2,  1.9,   1.7,  0.5,   1.9,  1.1,  1.3,  0.4,  1.0,    1.3,  0.8,  1.4,   1.3,   0.6],
+    'away_goalconceeded_pergame_ratio': [1.4,  1.1,  0.6,   1.9,  1.0,   1.4,  1.2,  1.1,  1.9,  1.0,    0.8,  1.3,  1.6,   1.8,   1.7],
 }
 
 df = pd.DataFrame(data)
