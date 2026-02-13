@@ -17,7 +17,7 @@ pl_team_stats = {
     "Everton":      [None, None, 1.33, 0.92],
     "Leeds United": [1.69, 1.00, 1.38, 2.08],
     "Liverpool":    [1.25, 1.77, 1.00, 1.75],
-    "Manchester City":[1.25, 1.54, 1.33, 1.46],
+    "Manchester City":[2.45, 1.69, 0.66, 1.2],
     "Manchester United":[1.92, 1.75, 1.15, 1.75],
     "Newcastle United":[1.08, 0.92, 1.50, 1.54],
     "Nottingham Forest":[1.08, 0.92, 1.50, 1.54],
@@ -25,7 +25,7 @@ pl_team_stats = {
     "Tottenham Hotspur":[1.00, 1.46, 1.33, 1.46],
     "West Ham United":[1.33, 1.00, 2.17, 1.69],
     "Wolverhampton Wanderers":[0.85, 0.42, 2.15, 1.67],
-    "Fulham":       [1.33, 1.15, 1.23, 1.75],
+    "Fulham":       [1.69, 1.08, 1.23, 1.75],
     "Bournemouth":  [1.92, 1.23, 1.00, 1.69]
 }
 
