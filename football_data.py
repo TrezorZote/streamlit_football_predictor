@@ -8,20 +8,20 @@
 
 pl_team_stats = {
     "Arsenal":      [2.38, 1.50, 0.62, 0.75],
-    "Aston Villa":  [1.92, 1.23, None, None],   # partial data
+    "Aston Villa":  [1.46, 1.38, 0.76, 1.3],   # partial data
     "Bournemouth":  [1.92, 1.23, 1.00, 1.69],
     "Brentford":    [1.92, 1.23, 1.00, 1.69],
     "Brighton":     [1.92, 1.23, 1.08, 1.58],
     "Chelsea":      [1.67, 1.92, 1.08, 1.15],
     "Crystal Palace":[0.92, 1.15, 1.25, 1.17],
-    "Everton":      [None, None, 1.33, 0.92],
+    "Everton":      [1.23, 1.0, 1.38, 0.92],
     "Leeds United": [1.69, 1.00, 1.38, 2.08],
-    "Liverpool":    [1.25, 1.77, 1.00, 1.75],
+    "Liverpool":    [1.61, 1.53, 1.00, 1.61],
     "Manchester City":[2.45, 1.69, 0.66, 1.2],
     "Manchester United":[1.92, 1.75, 1.15, 1.75],
-    "Newcastle United":[1.08, 0.92, 1.50, 1.54],
+    "Newcastle United":[1.85, 0.92, 1.50, 1.34],
     "Nottingham Forest":[1.08, 0.92, 1.50, 1.54],
-    "Sunderland":[0.75, 1.54, None, None],
+    "Sunderland":[1.60, 1.54, 0.76, 1.53],
     "Tottenham Hotspur":[1.00, 1.46, 1.33, 1.46],
     "West Ham United":[1.33, 1.00, 2.17, 1.69],
     "Wolverhampton Wanderers":[0.85, 0.42, 2.15, 1.67],
