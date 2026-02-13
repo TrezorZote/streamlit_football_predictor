@@ -139,9 +139,9 @@ def predict_outcome(league: str, home_team: str, away_team: str) -> str:
     # Map prediction to text
     # (adjust labels to match training data!)
     # ------------------------------
-    if prediction == 0:
+    if prediction == 1:
         return "Home team to score"
-    elif prediction == 1:
+    elif prediction == 2:
         return "Away team to score"
     else:
         return "Both teams to score"
