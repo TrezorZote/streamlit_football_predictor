@@ -186,7 +186,9 @@ available_leagues = [
     "Saudi Pro League",
     "Swiss League",
     "Portugal Primeira Liga",
-    "Turkish Super Lig"
+    "Turkish Super Lig",
+    "Bundesliga 3",
+
 ]
 
 selected_league = st.selectbox("Select League", available_leagues)
