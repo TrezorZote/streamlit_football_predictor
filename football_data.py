@@ -9,9 +9,9 @@
 pl_team_stats = {
     "Arsenal":      [2.38, 1.50, 0.62, 0.75],
     "Aston Villa":  [1.46, 1.38, 0.76, 1.3],   # partial data
-    "Bournemouth":  [1.92, 1.23, 1.00, 1.69],
+    "Bournemouth":  [1.92, 1.53, 1.00, 1.89],
     "Brentford":    [1.92, 1.23, 1.00, 1.69],
-    "Brighton":     [1.92, 1.23, 1.08, 1.58],
+    "Brighton":     [1.42, 1.13, 1.18, 1.38],
     "Chelsea":      [1.67, 1.92, 1.08, 1.15],
     "Crystal Palace":[0.92, 1.15, 1.25, 1.17],
     "Everton":      [1.23, 1.0, 1.38, 0.92],
@@ -26,23 +26,23 @@ pl_team_stats = {
     "West Ham United":[1.33, 1.00, 2.17, 1.69],
     "Wolverhampton Wanderers":[0.85, 0.42, 2.15, 1.67],
     "Fulham":       [1.69, 1.08, 1.23, 1.75],
-    "Bournemouth":  [1.92, 1.23, 1.00, 1.69]
+    "Bournemouth":  [1.42, 1.23, 1.00, 1.69]
 }
 
 championship_team_stats = {
-    "Coventry City":        [1.72, 1.28, 1.10, 1.22],
+    "Coventry City":        [2.02, 2.08, 0.90, 1.32],
     "Ipswich Town":         [1.88, 1.36, 0.94, 1.18],
     "Hull City":            [1.31, 1.80, 1.20, 1.60],
     "Middlesbrough":        [1.75, 1.67, 1.10, 1.36],
     "Millwall":             [1.88, 1.53, 1.30, 1.40],
-    "Wrexham":              [1.50, 1.53, 1.30, 1.50],
+    "Wrexham":              [1.80, 1.23, 1.50, 1.10],
     "Southampton":          [1.73, 1.18, 1.30, 1.40],
     "Birmingham City":      [1.94, 0.94, 1.10, 1.50],
     "Derby County":         [1.13, 1.80, 1.50, 1.70],
-    "Watford":              [1.81, 1.00, 1.30, 1.60],
+    "Watford":              [1.41, 1.10, 1.10, 1.40],
     "Queens Park Rangers":  [1.73, 1.13, 1.20, 1.40],
     "Stoke City":           [1.40, 1.38, 1.40, 1.50],
-    "Swansea City":         [1.75, 0.93, 1.20, 1.70],
+    "Swansea City":         [1.45, 0.93, 1.00, 1.70],
     "Norwich City":         [1.07, 1.35, 1.30, 1.50],
     "Sheffield United":     [1.53, 1.00, 1.10, 1.50],
     "Charlton Athletic":    [1.57, 0.88, 1.40, 1.60],
@@ -77,12 +77,14 @@ la_liga_team_stats = {
     "Real Sociedad":      [1.75, 1.09, 1.42, 1.27], 
     "Sevilla":            [1.45, 1.18, 1.50, 1.82], 
     "Atletico Madrid":    [2.36, 1.09, 0.64, 0.91],
+    "Girona":             [1.16, 1.09, 1.44, 1.51],
+
  
 }
 
 spanish_segunda_team_stats = {
     "Racing Santander":       [2.27, 2.00, 1.08, 1.15],
-    "Almeria":                [2.30, 1.55, 1.20, 1.37],
+    "Almeria":                [2.30, 1.55, 1.40, 1.37],
     "Castellon":              [2.20, 1.20, 0.75, 1.20],
     "Deportivo La Coruna":    [1.50, 1.82, 1.08, 1.27],
     "Malaga CF":              [1.90, 1.00, 1.15, 1.30],
@@ -94,7 +96,7 @@ spanish_segunda_team_stats = {
     "Burgos CF":              [1.00, 1.40, 0.95, 1.15],
     "Cadiz CF":               [1.27, 1.10, 1.10, 1.30],
     "Granada CF":             [1.30, 1.00, 1.15, 1.27],
-    "Huesca":                 [1.30, 0.60, 1.10, 1.50],
+    "Huesca":                 [1.30, 0.60, 1.10, 1.70],
     "FC Andorra":             [1.10, 1.09, 1.15, 1.25],
     "Valladolid":             [1.18, 0.89, 1.00, 1.21],
     "Leganes":                [0.67, 1.27, 1.00, 1.30],
@@ -108,7 +110,7 @@ serie_a_team_stats = {
     "AC Milan":       [2.18, 1.75, 0.82, 0.67],
     "Juventus":       [1.55, 1.17, 0.73, 0.83],
     "AS Roma":        [1.55, 1.45, 0.55, 0.67],
-    "Napoli":         [1.55, 1.25, 0.82, 1.08],
+    "Napoli":         [1.85, 1.35, 0.82, 1.13],
     "Como":           [1.67, 1.55, 0.58, 0.82],
     "Atalanta":       [1.54, 1.09, 0.77, 1.00],
     "Lazio":          [1.40, 1.00, 1.17, 0.64],
@@ -127,7 +129,7 @@ serie_a_team_stats = {
 }
 
 ligue1_team_stats = {
-    "Paris Saint Germain":     [2.10, 1.40, 0.44, 1.09],
+    "Paris Saint Germain":     [2.58, 1.70, 0.64, 1.19],
     "Marseille":               [1.80, 1.30, 1.10, 1.10],
     "Lens":                    [1.60, 1.10, 0.45, 1.20],
     "Lille":                   [1.40, 1.00, 1.20, 1.64],
@@ -135,7 +137,7 @@ ligue1_team_stats = {
     "Strasbourg":              [1.30, 0.90, 0.70, 1.80],
     "Monaco":                  [1.50, 1.10, 1.64, 1.67],
     "Toulouse":                [1.40, 1.00, 1.36, 0.89],
-    "Nice":                    [1.45, 1.10, 1.40, 2.40],
+    "Nice":                    [1.30, 1.19, 1.60, 2.20],
     "Nantes":                  [1.30, 1.00, 2.00, 1.50],
     "Auxerre":                 [1.10, 0.70, 1.20, 1.70],
     "Metz":                    [1.20, 0.90, 1.50, 2.82],
@@ -150,8 +152,8 @@ ligue1_team_stats = {
 
 bundesliga_team_stats = {
     "Bayern Munich":         [4.09, 3.40, 0.91, 0.90],
-    "TSG Hoffenheim":        [2.40, 1.82, 1.30, 1.36],
-    "RB Leipzig":            [2.30, 1.55, 1.30, 1.36],
+    "TSG Hoffenheim":        [2.20, 2.02, 1.20, 1.46],
+    "RB Leipzig":            [2.30, 1.55, 1.38, 1.36],
     "Borussia Dortmund":     [2.20, 1.91, 0.80, 1.09],
     "Bayer Leverkusen":      [2.00, 1.90, 1.00, 1.70],
     "SC Freiburg":           [1.90, 1.30, 1.10, 1.57],
@@ -173,21 +175,44 @@ bundesliga2_team_stats = {
     "SV Darmstadt 98":       [1.50, 1.21, 1.40, 1.20],
     "Hannover 96":          [1.40, 1.15, 1.30, 1.36],
     "SV Elversberg":        [1.60, 1.92, 0.90, 1.21],
-    "1. FC Kaiserslautern": [1.30, 1.06, 1.42, 1.30],
+    "1. FC Kaiserslautern": [2.10, 1.26, 1.22, 1.70],
     "1. FC Magdeburg":      [1.25, 1.00, 1.36, 1.12],
     "SC Paderborn 07":      [1.40, 1.06, 1.30, 1.18],
     "Arminia Bielefeld":    [1.50, 1.00, 1.60, 1.40],
-    "Greuther Fürth":       [1.30, 1.06, 1.58, 1.42],
+    "Greuther Fürth":       [1.40, 1.56, 2.00, 2.32],
     "Dynamo Dresden":       [1.50, 1.49, 1.70, 1.90],
-    "Karlsruher SC":        [1.34, 1.06, 1.42, 1.30],
+    "Karlsruher SC":        [1.84, 1.16, 1.72, 2.10],
     "Preußen Münster":      [1.25, 1.10, 1.50, 1.30],
     "Eintracht Braunschweig":[1.30, 1.10, 1.45, 1.06],
     "VfL Bochum":           [1.40, 1.10, 1.30, 1.18],
     "Holstein Kiel":        [1.28, 1.06, 1.40, 1.34],
-    "1. FC Nürnberg":       [1.30, 1.12, 1.36, 1.26],
+    "1. FC Nürnberg":       [1.53, 1.12, 1.16, 1.76],
     "Fortuna Düsseldorf":   [1.30, 1.04, 1.38, 1.30],
     "Hertha BSC":           [1.15, 1.06, 1.70, 1.20],
     "FC Schalke 04":        [1.25, 1.00, 1.18, 1.06]
+}
+
+
+bundesliga3_team_stats = {
+    "1860 Munich":        [1.45, 1.20, 1.30, 1.35],
+    "Alemannia Aachen":   [1.40, 2.10, 1.70, 1.65],
+    "Energie Cottbus":    [1.60, 1.25, 1.10, 1.30],
+    "Erzgebirge Aue":     [1.35, 1.10, 1.20, 1.40],
+    "FC Ingolstadt":      [1.55, 1.80, 1.25, 1.40],
+    "FC Saarbrücken":     [1.50, 1.10, 1.25, 1.70],
+    "Hansa Rostock":      [1.60, 1.15, 1.20, 1.30],
+    "Jahn Regensburg":    [1.50, 1.25, 1.10, 1.25],
+    "MSV Duisburg":       [1.35, 1.10, 0.95, 1.20],
+    "Rot-Weiss Essen":    [1.55, 1.20, 1.10, 1.20],
+    "SC Verl":            [2.75, 2.0, 1.20, 1.70],
+    "Stuttgart II":  [1.38, 1.07, 1.46, 1.80],
+    "Hoffenheim II": [1.65, 1.55, 1.42, 2.00],
+    "TSV Havelse":        [1.20, 0.95, 1.35, 1.50],
+    "Ulm":                [1.40, 1.05, 1.00, 1.25],
+    "VfL Osnabrück":      [1.35, 2.00, 0.60, 1.10],
+    "Viktoria Köln":      [1.45, 1.20, 1.10, 1.20],
+    "Waldhof Mannheim":   [1.50, 1.25, 1.35, 1.50],
+    "Wehen Wiesbaden":    [1.55, 1.20, 1.05, 1.25]
 }
 
 eredivisie_team_stats = {
@@ -196,11 +221,11 @@ eredivisie_team_stats = {
     "Feyenoord":      [2.10, 1.90, 0.88, 0.95],
     "AZ Alkmaar":     [1.90, 1.65, 1.05, 1.10],
     "NEC Nijmegen":   [2.50, 2.25, 1.65, 1.90],
-    "Twente":         [1.85, 1.55, 1.10, 1.25],
+    "Twente":         [1.75, 1.65, 1.00, 1.25],
     "Utrecht":        [1.65, 1.40, 1.30, 1.40],
     "Heerenveen":     [1.60, 1.45, 1.35, 1.45],
     "Volendam":       [1.55, 1.15, 1.45, 1.55],
-    "Fortuna Sittard": [1.50, 1.10, 1.55, 1.60],
+    "Fortuna Sittard": [1.70, 1.30, 1.70, 2.00],
     "Heracles Almelo": [1.75, 1.40, 1.61, 1.50],
     "PEC Zwolle":     [1.50, 1.05, 1.30, 1.50],
     "Excelsior":      [1.45, 1.00, 1.12, 1.50],
@@ -213,18 +238,18 @@ eredivisie_team_stats = {
 
 
 swiss_league_stats = {
-    "Thun":             [2.00, 2.50, 1.30, 1.11],  # high scoring overall, strong away scoring
-    "FC Lugano":        [2.09, 1.50, 1.22, 1.11],  # solid home, moderate away
-    "St. Gallen":       [1.64, 1.91, 1.10, 1.25],  # good scoring away
-    "Basel":            [1.58, 1.82, 1.17, 1.40],  # balanced attack/defense
-    "FC Sion":          [1.58, 1.36, 1.22, 1.67],  # modest offense/defense
+    "Thun":             [2.20, 2.20, 1.30, 1.11],  # high scoring overall, strong away scoring
+    "FC Lugano":        [1.94, 1.20, 1.22, 1.25],  # solid home, moderate away
+    "St. Gallen":       [1.94, 2.01, 1.19, 1.25],  # good scoring away
+    "Basel":            [1.38, 1.52, 0.97, 1.60],  # balanced attack/defense
+    "FC Sion":          [1.40, 1.46, 0.72, 1.47],  # modest offense/defense
     "Young Boys":       [1.82, 1.08, 1.50, 2.45],  # fairly high home scoring, weaker defense away
-    "Lausanne Sports":  [1.33, 1.18, 1.70, 1.10],  # average scoring/conceding
-    "FC Luzern":        [0.92, 1.33, 2.20, 1.73],  # lower home scoring, weaker defense
+    "Lausanne Sports":  [1.73, 1.38, 1.70, 1.50],  # average scoring/conceding
+    "FC Luzern":        [2.02, 1.33, 2.20, 1.53],  # lower home scoring, weaker defense
     "Servette FC":      [0.92, 1.27, 1.89, 2.00],  # lower scoring, higher conceded
-    "FC Zurich":        [1.18, 1.00, 1.90, 1.78],  # moderate rates
+    "FC Zurich":        [1.68, 1.00, 2.03, 1.88],  # moderate rates
     "Grasshopper":      [0.92, 0.75, 1.50, 2.10],  # lower scoring, higher conceded
-    "FC Winterthur":    [0.82, 0.45, 2.44, 3.00],  # weakest numbers
+    "FC Winterthur":    [1.30, 0.45, 2.24, 3.00],  # weakest numbers
 }
 
 
@@ -234,10 +259,10 @@ danish_superliga_stats = {
     "Nordsjaelland":     [1.80, 1.00, 1.10, 2.44],
     "SønderjyskE":       [1.89, 1.20, 1.00, 1.67],
     "Brøndby IF":        [1.70, 1.67, 1.20, 1.14],
-    "Odense BK":         [1.56, 1.20, 1.80, 1.96],
+    "Odense BK":         [1.86, 1.40, 2.09, 1.96],
     "Viborg":            [1.44, 1.40, 1.80, 1.10],
     "FC København":      [1.44, 1.50, 1.70, 1.78],
-    "Vejle BK":          [1.10, 0.22, 1.60, 2.44],
+    "Vejle BK":          [1.40, 0.22, 1.60, 2.44],
     "Silkeborg":         [1.10, 0.89, 1.40, 2.56],
     "Randers FC":        [1.22, 0.90, 1.80, 1.20],
     "Fredericia":        [0.78, 1.00, 2.22, 2.60],

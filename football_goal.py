@@ -46,7 +46,7 @@ leagues = [football_data.pl_team_stats,football_data.championship_team_stats,
            football_data.bundesliga_team_stats,football_data.bundesliga2_team_stats,
            football_data.eredivisie_team_stats,football_data.danish_superliga_stats,
            football_data.saudi_pro_league_stats,football_data.swiss_league_stats,
-           football_data.primeira_liga_team_stats,football_data.turkish_super_lig_stats]
+           football_data.primeira_liga_team_stats,football_data.turkish_super_lig_stats,football_data.bundesliga3_team_stats]
  
 
 def set_league(league_number: int):
@@ -72,6 +72,7 @@ def get_league_number(league_name: str) -> int:
     11 -> Swiss League
     12 -> Portugal Primeira Liga
     13 -> Turkish Super Lig
+    13 -> bundesliga 3
     """
 
     # Convert to lowercase to make matching case-insensitive
@@ -87,6 +88,7 @@ def get_league_number(league_name: str) -> int:
         "serie a": 5,
         "bundesliga 2": 7,
         "bundesliga": 6,
+        "bundesliga 3": 14,
         "eredivisie": 8,
         "superliga": 9,
         "saudi": 10,
