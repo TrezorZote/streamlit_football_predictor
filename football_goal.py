@@ -72,7 +72,7 @@ def get_league_number(league_name: str) -> int:
     11 -> Swiss League
     12 -> Portugal Primeira Liga
     13 -> Turkish Super Lig
-    13 -> bundesliga 3
+    14 -> Bundesliga 3
     """
 
     # Convert to lowercase to make matching case-insensitive
