@@ -160,6 +160,39 @@ if "prediction" not in st.session_state:
 if "history" not in st.session_state:
     st.session_state.history = []
 
+
+# ------------------------------
+# UI Background
+# ------------------------------
+def set_animated_bg():
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background: linear-gradient(-45deg, #1e3c72, #2a5298, #6a11cb, #2575fc);
+            background-size: 400% 400%;
+            animation: gradient 12s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+set_animated_bg()
+
+
 # ------------------------------
 # UI Title
 # ------------------------------
@@ -220,10 +253,15 @@ else:
 col1, col2, col3 = st.columns(3)
 
 show_history = False  # whether to show the history of past predictions
+is_disabled = (
+    selected_league is None or
+    home_team is None or
+    away_team is None
+)
 
 # Predict Button
 with col1:
-    if st.button("Predict"):
+    if st.button("Predict", disabled=is_disabled):
         result = predict_outcome(selected_league,home_team, away_team)
         st.session_state.prediction = result
 
@@ -235,8 +273,8 @@ with col1:
 # Reset Button (keeps history)
 with col2:
     if st.button("Reset"):
+        st.session_state.history = []
         st.session_state.prediction = None
-        st.session_state.history.clear
         st.rerun()
 
 # Show History Button
