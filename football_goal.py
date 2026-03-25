@@ -163,14 +163,9 @@ if "history" not in st.session_state:
 # ------------------------------
 # UI Title
 # ------------------------------
-st.title("⚽ Football Goal Outcome Predictor")
-st.write("Enter the home and away teams, then click **Predict**.")
+st.title("Football Goal Outcome Predictor")
+st.write("Select a League then choose the home and away teams, and click **Predict**.")
 
-# ------------------------------
-# Input fields
-# ------------------------------
-home_team = st.text_input("Home Team")
-away_team = st.text_input("Away Team")
 # League selection
 available_leagues = [
     "Premier League",
@@ -191,7 +186,33 @@ available_leagues = [
 
 ]
 
-selected_league = st.selectbox("Select League", available_leagues)
+# ------------------------------
+# League selection
+# ------------------------------
+selected_league = st.selectbox(
+    "Select League",
+    available_leagues,
+    index=None,  # nothing selected by default
+    placeholder="Choose a league"
+)
+
+# ------------------------------
+# Dynamic team list
+# ------------------------------
+if selected_league:
+    league_number = get_league_number(selected_league)
+    set_league(league_number)
+
+    teams = list(league_chosen.keys())
+
+    home_team = st.selectbox("Home Team", teams)
+
+    away_team = st.selectbox(
+        "Away Team",
+        [team for team in teams if team != home_team]
+    )
+else:
+    st.info("Please select a league first ")
 
 # ------------------------------
 # Buttons Layout

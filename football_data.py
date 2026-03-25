@@ -231,7 +231,7 @@ eredivisie_team_stats = {
     "Excelsior":      [1.45, 1.00, 1.12, 1.50],
     "Sparta Rotterdam": [1.15, 1.50, 1.75, 1.75],
     "Go Ahead Eagles": [1.50, 1.30, 1.20, 1.30],
-    "Groningen":      [1.40, 1.20, 1.25, 1.40],
+    "Groningen":      [1.50, 1.20, 1.15, 1.40],
     "Willem II":      [1.30, 1.00, 1.45, 1.55],
     "Telstar":        [1.35, 0.95, 1.30, 1.50]
 }
